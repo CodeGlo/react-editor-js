@@ -24,7 +24,7 @@ export class ServerEditorCore implements EditorCore {
     return false
   }
 
-  public async insertBlock() {}
+  public async insert() {}
 
   public async updateBlock() {}
 

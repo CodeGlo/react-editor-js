@@ -36,7 +36,7 @@ export class TestEditorCore implements EditorCore {
     return this._readOnly
   }
   
-  public async insertBlock() {}
+  public async insert() {}
 
   public async updateBlock() {}
 

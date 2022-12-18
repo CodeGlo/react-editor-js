@@ -41,7 +41,7 @@ export class ClientEditorCore implements EditorCore {
     return this._editorJS.readOnly.toggle()
   }
 
-  public async insertBlock(type?: string, data?: BlockToolData, config?: ToolConfig, index?: number, needToFocus?: boolean) {
+  public async insert(type?: string, data?: BlockToolData, config?: ToolConfig, index?: number, needToFocus?: boolean) {
     return this._editorJS.blocks.insert(type, data, config, index, needToFocus)
   }
 

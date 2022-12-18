@@ -11,7 +11,7 @@ export interface EditorCore {
 
   toggleReadOnly(): Promise<boolean>
 
-  insertBlock(type?: string, data?: BlockToolData, config?: ToolConfig, index?: number, needToFocus?: boolean): Promise<void>
+  insert(type?: string, data?: BlockToolData, config?: ToolConfig, index?: number, needToFocus?: boolean): Promise<void>
 
   updateBlock(id?: string, data?: BlockToolData): Promise<void>
 
