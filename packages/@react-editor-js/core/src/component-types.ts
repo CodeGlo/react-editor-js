@@ -14,5 +14,3 @@ export interface Props extends Omit<EditorConfig, 'data'> {
 
   onInitialize?: (core: EditorCore) => void
 }
-
-export type WrapperProps = Omit<Props, 'factory'>
