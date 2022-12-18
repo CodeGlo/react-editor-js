@@ -1,6 +1,6 @@
 {
   "author": "Jungwoo An <o1o9814@naver.com>",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": true,
   "scripts": {
     "release": "release-it",
@@ -27,5 +27,19 @@
     "ts-jest": "^27.1.2",
     "typescript": "^4.3.5"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "name": "react-editor",
+  "description": "<div align=\"center\">   <img alt=\"Logo\" src=\"static/react-editor-js.png\" width=\"100%\"> </div>",
+  "main": ".release-it.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeGlo/react-editor-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeGlo/react-editor-js/issues"
+  },
+  "homepage": "https://github.com/CodeGlo/react-editor-js#readme"
 }
